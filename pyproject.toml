@@ -2,14 +2,14 @@
 name = "confluence-runner-script"
 version = "0.1.0"
 description = ""
-authors = ["Martin D Cernadas"]
+authors = ["autorTepatiki"]
 license = "MIT"
 readme = "README.md"
-homepage = "https://gitlab.com/telecom-argentina/coo/fintech/pepa-architecture-sandbox/confluence-script-runner/confluence-runner-script"
-repository = "https://gitlab.com/telecom-argentina/coo/fintech/pepa-architecture-sandbox/confluence-script-runner/confluence-runner-script"
+homepage = "https://github.com/autorTepatiki/confluence-script-runner/"
+repository = "https://github.com/autorTepatiki/confluence-script-runner/"
 
 [tools.poetry.urls]
-"Bug Tracker" = "https://gitlab.com/telecom-argentina/coo/fintech/pepa-architecture-sandbox/confluence-script-runner/confluence-runner-script/-/issues"
+"Bug Tracker" = "https://github.com/autorTepatiki/confluence-script-runner/-/issues"
 
 [tool.poetry.dependencies]
 python = "^3.9"
