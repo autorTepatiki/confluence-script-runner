@@ -30,7 +30,7 @@ api_token = os.getenv('api_token')
 parent_page_id = os.getenv('parent_page_id')
 
 # Changelogg string
-changelog_string =  "<h1>Changelog</h1><p><a href=\"https://cablevisionfibertel.sharepoint.com/:x:/r/teams/PersonalPayLibrary/_layouts/15/Doc.aspx?sourcedoc=%7B1ED9554C-8237-4841-B703-3EAF0537D0DD%7D&amp;file=Tribu%20SELLERS%20-%20ADR%20y%20arquitecturas%20por%20Squad.xlsx&amp;action=default&amp;mobileredirect=true\">Tribu SELLERS - ADR y arquitecturas por Squad.xlsx</a></p><p /><p />"
+changelog_string =  "<h1>Changelog</h1><p><a X </a></p><p /><p />"
 
 
 def check_user_params(page):    
