@@ -8,7 +8,7 @@ load_dotenv()
 
 
 # Replace these variables with your Confluence instance details
-CONFLUENCE_URL = 'https://tecocloud.atlassian.net/wiki/rest/api/content/'
+CONFLUENCE_URL = 'https://mycompany.atlassian.net/wiki/rest/api/content/'
 USERMAIL = os.getenv('usermail')
 API_TOKEN = os.getenv('api_token')
 PAGE_ID = os.getenv('page_id')
