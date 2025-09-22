@@ -1,0 +1,6 @@
+python-dotenv 
+requests
+pre-commit
+poetry
+bs4
+fpdf
