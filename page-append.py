@@ -26,7 +26,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Environment configuration
-base_url = 'https://tecocloud.atlassian.net/wiki/rest/api/content/'
+base_url = 'https://mycompany.atlassian.net/wiki/rest/api/content/'
 usermail = os.getenv('usermail')
 api_token = os.getenv('api_token')
 parent_page_id = os.getenv('parent_page_id')
