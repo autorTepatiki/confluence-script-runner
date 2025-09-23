@@ -1,0 +1,33 @@
+repos:
+  - repo: "https://github.com/pre-commit/pre-commit-hooks"
+    rev: "v2.3.0"
+    hooks:
+      - id: "check-added-large-files"
+      - id: "check-merge-conflict"
+
+      # Language checkers
+      - id: "check-yaml"
+      # - id: "check-json" # Not running check-json as vscode's json supports comment
+      - id: "check-toml"
+      - id: "check-xml"
+
+  - repo: "https://github.com/psf/black"
+    rev: "22.3.0"
+    hooks:
+      - id: "black"
+
+  - repo: "https://github.com/PyCQA/isort"
+    rev: "5.13.0"
+    hooks:
+      - id: "isort"
+
+  - repo: "https://github.com/PyCQA/flake8"
+    rev: "3.9.2"
+    hooks:
+      - id: "flake8"
+
+  - repo: "https://github.com/editorconfig-checker/editorconfig-checker.python"
+    rev: "2.3.54"
+    hooks:
+      - id: "editorconfig-checker"
+

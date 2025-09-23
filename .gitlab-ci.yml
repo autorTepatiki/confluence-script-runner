@@ -1,0 +1,23 @@
+stages:
+  - "lint"
+
+# Change pip's cache directory to be inside the project directory since we can
+# only cache local items.
+# Ref: https://docs.gitlab.com/ee/ci/caching/index.html#cache-python-dependencies
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+  PRE_COMMIT_HOME: "${CI_PROJECT_DIR}/.cache/pre-commit"
+
+"Run pre-commit":
+  stage: "lint"
+  image: "python:3.9-slim"
+  cache:
+    key: "pre-commit"
+    paths:
+      - ".cache/pip"
+      - ".cache/pre-commit"
+  script:
+    - "apt-get update"
+    - "apt-get install -y git"
+    - "pip install pre-commit"
+    - "pre-commit run --all-files"
